@@ -1,3 +1,5 @@
+/* All images under Unsplash+ License */
+
 body {
     display: flex;
     flex-direction: column;
@@ -16,21 +18,34 @@ li {
     border: 2px red solid;
 }
 
-.header {
+.header-bar {
     display: flex;
     flex-direction: row;
-    flex: auto;
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
     border: 2px red solid;
 }
 
-.hero-img {
-    background-image: url();
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-one {
+    display: flex;
+
+}
+
+img {
+    height: 400px;
+    width: auto;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     color: white;
     border: 2px red solid;
