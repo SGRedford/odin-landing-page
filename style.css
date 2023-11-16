@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    border: 2px red solid;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 2px red solid;
+}
+
+li {
+    list-style: none;
+    border: 2px red solid;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    border: 2px red solid;
+}
+
+.hero-img {
+    background-image: url();
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    border: 2px red solid;
+}
