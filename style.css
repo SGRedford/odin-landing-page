@@ -53,6 +53,7 @@ li {
     padding: 50px;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .hero-info {
@@ -62,15 +63,24 @@ li {
     align-items: flex-start;
 }
 
+.hero-button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+}
+
 .hero-info h2 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0;
 }
 
 .hero-info p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 0;
 }
 
 .container-one {
@@ -135,43 +145,51 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    margin: 50px;
-    border: 2px red solid;
 }
 
 .blue-box {
     background-color: #3882f6;
-    border-radius: 15px;
+    border-radius: 5px;
     color: white;
     margin: 50px;
     display: flex;
     flex-direction: row;
     gap: 50px;
     width: 900px;
+    padding: 20px 100px;
+    justify-content: space-between;
 }
 
+
 .call {
-    border: 2px red solid;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.call h3 {
+    margin: 0;
+}
+
+.call p {
+    margin: 0;
 }
 
 .call-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: 20px;
     margin: 0;
 }
 
 .call-button button {
     background-color: #3882f6;
     border-color: white;
-    border-radius: 15px;
+    border-radius: 5px;
     color: white;
-    padding: 5 25px 5 25px;
+    padding: 10px 40px;
 }
 
 .footer {
