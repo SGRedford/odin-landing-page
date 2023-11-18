@@ -1,6 +1,5 @@
 /* All images under Unsplash+ License */
 
-
 body {
     font-family: roboto;
     display: flex;
@@ -28,7 +27,8 @@ li {
 }
 
 .logo {
-    font-weight: 500;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header-bar {
@@ -36,7 +36,7 @@ li {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px 40px 40px;
+    padding: 0 50px 0 50px;
 }
 
 .header-links ul {
@@ -50,17 +50,27 @@ li {
     display: flex;
     flex-direction: row;
     flex: 1;
-    padding: 40px;
-    justify-content: center;
+    padding: 50px;
+    justify-content: space-between;
     align-items: center;
 }
 
 .hero-info {
     display: flex;
     flex-direction: column;
-    padding-right: 15px;
     justify-content: center;
     align-items: flex-start;
+}
+
+.hero-info h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-info p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .container-one {
@@ -72,29 +82,96 @@ li {
     color: black;
 }
 
+.container-one h2 {
+    color: #1f2937;
+    font-size: 36px;
+}
+
 .hero-img {
-    height: 250px;
+    height: 300px;
     width: auto;
 }
 
 .card-box {
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 150px;
+    max-width: 200px;
     Padding: 20px;
 }
 
 .card-img {
     border-radius: 25px;
     border: 2px solid #3882F6;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.container-two {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.author{
+    text-align: right;
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 50px;
+    border: 2px red solid;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 900px;
+}
+
+.call {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.call-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.call-button button {
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 15px;
+    color: white;
+    padding: 5 25px 5 25px;
 }
 
 .footer {
